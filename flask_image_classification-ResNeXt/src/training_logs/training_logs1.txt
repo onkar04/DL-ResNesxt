@@ -1,0 +1,133 @@
+Files already downloaded and verified
+
+Epoch: 48
+ [================================================================>]  Step: 504ms | Tot: 5m12s | Loss: 0.262 | Acc: 90.898% (45449/50000) 391/391 
+ [================================================================>]  Step: 57ms | Tot: 21s243ms | Loss: 0.315 | Acc: 90.610% (9061/10000) 79/79 
+       plane    car   bird    cat   deer    dog   frog  horse   ship  truck
+plane  922.0    6.0   18.0   10.0    5.0    1.0    0.0    6.0   26.0    6.0
+car      5.0  963.0    1.0    1.0    0.0    0.0    0.0    0.0    7.0   23.0
+bird    21.0    0.0  875.0   24.0   42.0   16.0   15.0    5.0    2.0    0.0
+cat     10.0    0.0   31.0  833.0   34.0   69.0    9.0    7.0    5.0    2.0
+deer     5.0    0.0   19.0   18.0  940.0   10.0    3.0    4.0    0.0    1.0
+dog      7.0    2.0   20.0   94.0   25.0  844.0    1.0    6.0    0.0    1.0
+frog     4.0    1.0   32.0   28.0   28.0    8.0  894.0    2.0    2.0    1.0
+horse    8.0    0.0    9.0   33.0   30.0   18.0    1.0  897.0    1.0    3.0
+ship    22.0    8.0    1.0    8.0    1.0    0.0    0.0    0.0  949.0   11.0
+truck    8.0   32.0    3.0    3.0    0.0    0.0    0.0    0.0   10.0  944.0
+per_class_accuracy: plane - tensor(0.9220)
+per_class_accuracy: car - tensor(0.9630)
+per_class_accuracy: bird - tensor(0.8750)
+per_class_accuracy: cat - tensor(0.8330)
+per_class_accuracy: deer - tensor(0.9400)
+per_class_accuracy: dog - tensor(0.8440)
+per_class_accuracy: frog - tensor(0.8940)
+per_class_accuracy: horse - tensor(0.8970)
+per_class_accuracy: ship - tensor(0.9490)
+per_class_accuracy: truck - tensor(0.9440)
+Test_accuracy: tensor(90.6100)
+
+Epoch: 49
+ [================================================================>]  Step: 525ms | Tot: 5m12s | Loss: 0.217 | Acc: 92.478% (46239/50000) 391/391 
+ [================================================================>]  Step: 51ms | Tot: 21s273ms | Loss: 0.309 | Acc: 91.120% (9112/10000) 79/79 
+Saving..
+       plane    car   bird    cat   deer    dog   frog  horse   ship  truck
+plane  921.0    4.0   21.0    4.0    3.0    1.0    0.0    7.0   32.0    7.0
+car      5.0  972.0    1.0    0.0    0.0    0.0    0.0    1.0    5.0   16.0
+bird    19.0    0.0  895.0   20.0   34.0   11.0   14.0    4.0    2.0    1.0
+cat     10.0    4.0   43.0  829.0   23.0   53.0   10.0   15.0    9.0    4.0
+deer     6.0    2.0   24.0   24.0  915.0    7.0    6.0   16.0    0.0    0.0
+dog      4.0    2.0   25.0   92.0   17.0  834.0    4.0   18.0    3.0    1.0
+frog     5.0    4.0   36.0   30.0    7.0    3.0  906.0    3.0    3.0    3.0
+horse    5.0    1.0   10.0   16.0   10.0   10.0    1.0  947.0    0.0    0.0
+ship    14.0   11.0    0.0    5.0    1.0    0.0    1.0    0.0  961.0    7.0
+truck    5.0   47.0    2.0    3.0    0.0    0.0    0.0    1.0   10.0  932.0
+per_class_accuracy: plane - tensor(0.9210)
+per_class_accuracy: car - tensor(0.9720)
+per_class_accuracy: bird - tensor(0.8950)
+per_class_accuracy: cat - tensor(0.8290)
+per_class_accuracy: deer - tensor(0.9150)
+per_class_accuracy: dog - tensor(0.8340)
+per_class_accuracy: frog - tensor(0.9060)
+per_class_accuracy: horse - tensor(0.9470)
+per_class_accuracy: ship - tensor(0.9610)
+per_class_accuracy: truck - tensor(0.9320)
+Test_accuracy: tensor(91.1200)
+
+Epoch: 50
+ [================================================================>]  Step: 504ms | Tot: 5m13s | Loss: 0.201 | Acc: 92.846% (46423/50000) 391/391 
+ [================================================================>]  Step: 54ms | Tot: 21s266ms | Loss: 0.316 | Acc: 90.910% (9091/10000) 79/79 
+       plane    car   bird    cat   deer    dog   frog  horse   ship  truck
+plane  898.0    7.0   28.0   10.0    3.0    3.0    2.0    5.0   38.0    6.0
+car      3.0  970.0    2.0    2.0    0.0    0.0    0.0    1.0    8.0   14.0
+bird    17.0    0.0  892.0   25.0   30.0   17.0   16.0    1.0    2.0    0.0
+cat      4.0    1.0   40.0  815.0   28.0   89.0   10.0    7.0    4.0    2.0
+deer     3.0    0.0   20.0   17.0  943.0    6.0    4.0    6.0    1.0    0.0
+dog      2.0    1.0   20.0   76.0   22.0  870.0    1.0    7.0    1.0    0.0
+frog     3.0    2.0   34.0   27.0   16.0   10.0  903.0    1.0    3.0    1.0
+horse    6.0    0.0    9.0   26.0   28.0   20.0    0.0  911.0    0.0    0.0
+ship    12.0    8.0    3.0    6.0    1.0    0.0    1.0    0.0  960.0    9.0
+truck    9.0   43.0    3.0    4.0    1.0    0.0    0.0    1.0   10.0  929.0
+per_class_accuracy: plane - tensor(0.8980)
+per_class_accuracy: car - tensor(0.9700)
+per_class_accuracy: bird - tensor(0.8920)
+per_class_accuracy: cat - tensor(0.8150)
+per_class_accuracy: deer - tensor(0.9430)
+per_class_accuracy: dog - tensor(0.8700)
+per_class_accuracy: frog - tensor(0.9030)
+per_class_accuracy: horse - tensor(0.9110)
+per_class_accuracy: ship - tensor(0.9600)
+per_class_accuracy: truck - tensor(0.9290)
+Test_accuracy: tensor(90.9100)
+
+Epoch: 51
+ [================================================================>]  Step: 525ms | Tot: 5m13s | Loss: 0.194 | Acc: 93.084% (46542/50000) 391/391 
+ [================================================================>]  Step: 51ms | Tot: 21s322ms | Loss: 0.298 | Acc: 91.120% (9112/10000) 79/79 
+       plane    car   bird    cat   deer    dog   frog  horse   ship  truck
+plane  922.0    5.0   18.0   17.0    2.0    1.0    1.0    2.0   22.0   10.0
+car      6.0  955.0    3.0    3.0    0.0    0.0    0.0    0.0    6.0   27.0
+bird    22.0    0.0  879.0   31.0   31.0   19.0   14.0    3.0    1.0    0.0
+cat      3.0    1.0   31.0  844.0   24.0   79.0    9.0    4.0    3.0    2.0
+deer     4.0    0.0   21.0   23.0  924.0   12.0    4.0   10.0    1.0    1.0
+dog      3.0    0.0   17.0   86.0   19.0  868.0    1.0    4.0    1.0    1.0
+frog     6.0    1.0   35.0   35.0    8.0    6.0  906.0    1.0    2.0    0.0
+horse    6.0    0.0    8.0   29.0   15.0   23.0    0.0  917.0    0.0    2.0
+ship    19.0    8.0    2.0    9.0    1.0    0.0    2.0    0.0  948.0   11.0
+truck    7.0   29.0    2.0    4.0    0.0    0.0    0.0    1.0    8.0  949.0
+per_class_accuracy: plane - tensor(0.9220)
+per_class_accuracy: car - tensor(0.9550)
+per_class_accuracy: bird - tensor(0.8790)
+per_class_accuracy: cat - tensor(0.8440)
+per_class_accuracy: deer - tensor(0.9240)
+per_class_accuracy: dog - tensor(0.8680)
+per_class_accuracy: frog - tensor(0.9060)
+per_class_accuracy: horse - tensor(0.9170)
+per_class_accuracy: ship - tensor(0.9480)
+per_class_accuracy: truck - tensor(0.9490)
+Test_accuracy: tensor(91.1200)
+
+Epoch: 52
+ [================================================================>]  Step: 493ms | Tot: 5m13s | Loss: 0.184 | Acc: 93.472% (46736/50000) 391/391 
+ [================================================================>]  Step: 55ms | Tot: 21s258ms | Loss: 0.300 | Acc: 91.370% (9137/10000) 79/79 
+Saving..
+       plane    car   bird    cat   deer    dog   frog  horse   ship  truck
+plane  905.0    7.0   23.0   13.0    3.0    1.0    1.0    2.0   35.0   10.0
+car      4.0  970.0    2.0    1.0    0.0    0.0    0.0    0.0    4.0   19.0
+bird    19.0    0.0  884.0   29.0   30.0   10.0   22.0    4.0    2.0    0.0
+cat      6.0    2.0   25.0  856.0   21.0   69.0    9.0    4.0    2.0    6.0
+deer     4.0    1.0   21.0   24.0  928.0    8.0    7.0    6.0    1.0    0.0
+dog      3.0    2.0   13.0   99.0   19.0  851.0    5.0    7.0    1.0    0.0
+frog     5.0    1.0   28.0   31.0    7.0    4.0  919.0    2.0    2.0    1.0
+horse    6.0    0.0    6.0   21.0   20.0   16.0    2.0  927.0    0.0    2.0
+ship    15.0    9.0    1.0    6.0    1.0    0.0    1.0    0.0  960.0    7.0
+truck    5.0   42.0    2.0    2.0    1.0    0.0    0.0    1.0   10.0  937.0
+per_class_accuracy: plane - tensor(0.9050)
+per_class_accuracy: car - tensor(0.9700)
+per_class_accuracy: bird - tensor(0.8840)
+per_class_accuracy: cat - tensor(0.8560)
+per_class_accuracy: deer - tensor(0.9280)
+per_class_accuracy: dog - tensor(0.8510)
+per_class_accuracy: frog - tensor(0.9190)
+per_class_accuracy: horse - tensor(0.9270)
+per_class_accuracy: ship - tensor(0.9600)
+per_class_accuracy: truck - tensor(0.9370)
+Test_accuracy: tensor(91.3700)
